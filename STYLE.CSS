@@ -1,0 +1,6 @@
+.line {
+    width: 80px;
+    height: 3px;
+    background: goldenrod;
+    margin: 8px auto;
+}
