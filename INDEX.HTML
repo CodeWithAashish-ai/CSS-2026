@@ -4,12 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Document</title>
     <style>
-        .raja {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
+        .box {
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: 150px 150px;
+            grid-template-rows: 100px 100px;
+        }
+        
+        .items {
+            width: 50px;
+            height: 50px;
+            border: 2px solid black;
+            margin: 10px;
+            background-color: rgb(188, 176, 238);
         }
     </style>
 </head>
@@ -19,16 +28,14 @@
 
     </header>
     <main>
-        <section>
-            <div class="raja">
+        <div class="box">
+            <div class="items">1</div>
+            <div class="items">2</div>
+            <div class="items">3</div>
+            <div class="items">4</div>
+            <div class="items">5</div>
 
-                <p>youre goal achive to you going to USA and build in empire </p>
-                <h1>my website</h1>
-
-            </div>
-
-
-        </section>
+        </div>
     </main>
     <footer>
 

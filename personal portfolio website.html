@@ -12,29 +12,34 @@
 
 <body>
     <header>
-        <nav class="navbar">
-            <div class="logo">Aashish</div>
-            <ul class="nav-link">
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#services">Services</a>
-                </li>
-                <li>
-                    <a href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#blog">Blog</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
+        <section>
+
+            <nav class="navbar">
+                <div class="logo">Aashish</div>
+                <ul class="nav-link">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#blog">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
         <section id="home" class="section home">
 
             <h1>Welcome !</h1>
@@ -51,7 +56,9 @@
             <pre>W H O  A M  I</pre>
             <h2>AASHISH RAJA</h2>
             <h6>I A M A F R O N T - E N D D E V E L O P E R</h6>
-            <p>I Am Professtional Front end developer.I build clean, responsive, and user-friendly ,<br>websites.I focus on modern UI and smooth user experience.with a strong passion <br>for creating visually appealing and responsive websites.</p>
+            <p>I Am Professtional Front end developer.I build clean, responsive, and user-friendly ,<br>websites.I focus on modern UI and smooth user experience.with a strong passion
+                <br>for creating visually appealing and responsive websites.
+            </p>
             <p class="sec"> I specialize in HTML, CSS, and JavaScript, and I am constantly learning modern <br> frontend tools to improve performance, accessibility, and user experience.I am a <br> passionate Frontend Developer focused on creating clean, responsive,
                 and user - <br> friendly web interfaces. I specialize in HTML, CSS, and JavaScript to build mod <br> ern and visually appealing websites. I enjoy transforming design ideas into funct <br> ional digital experiences. My goal is to deliver
                 fast, accessible, and high-quality <br> web solutions.</p>
@@ -79,7 +86,6 @@
                 </div>
             </div>
 
-
         </section>
         <section id="services" class="section services">
             <h2 class="float-text">𝖘𝖊𝖗𝖛𝖎𝖈𝖊𝖘</h2>
@@ -94,7 +100,8 @@
                     <i class="fa-solid fa-code"></i>
                     <!-- Development -->
                     <h3>Responsive Website</h3>
-                    <p>Creat a Responsive Website with a passion for creating visually appealing and user-friendly and professtional</p>
+                    <p>Creat a Responsive Website with a passion for creating visually appealing and user-friendly and professtional
+                    </p>
                 </div>
                 <div class="ic1">
                     <i class="fa-solid fa-pen-nib"></i>
@@ -106,7 +113,8 @@
                     <i class="fa-solid fa-bullhorn"></i>
                     <!-- Marketing -->
                     <h3>Problem solving</h3>
-                    <p>I Can Try To Solve Problem with a passion for creating visually appealing Master Problem Solving</p>
+                    <p>I Can Try To Solve Problem with a passion for creating visually appealing Master Problem Solving
+                    </p>
                 </div>
             </div>
 
@@ -141,12 +149,6 @@
 
             </div>
 
-
-
-
-
-
-
         </section>
 
         <section id="blog" class="section blog">
@@ -174,19 +176,75 @@
 
         </section>
 
+        <section id="contact" class="section contact">
+            <h1>𝖈𝖔𝖓𝖙𝖆𝖈𝖙 𝖚𝖘</h1>
 
-        <section id="contact" class="section contact">Contact Section
-        </section>
-    </header>
-    <main>
-        <section>
 
-        </section>
+            <section class="contact-wrap">
+                <div class="glass-card">
+                    <!-- Left: Info -->
+                    <div class="info-side">
+                        <h2>Contact Us</h2>
+                        <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+
+                        <div class="info-list">
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <span class="label">PHONE :</span>
+                                    <span class="val">91+ 9773193721</span>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <span class="label">EMAIL :</span>
+                                    <span class="val">Aashishthakor496@gmail.com</span>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <span class="label">ADDRESS :</span>
+                                    <span class="val">Nugar Grampanchayat Ni Same,<br>Mehsana, India</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Social -->
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Right: Form -->
+                    <div class="form-side">
+                        <form class="contact-form" onsubmit="return false">
+                            <input type="text" placeholder="Your Name" required />
+                            <input type="email" placeholder="Your Email" required />
+                            <input type="text" placeholder="Subject" required />
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+
+            </section>
+
+
     </main>
     <footer>
 
     </footer>
 </body>
+
+</html>
 
 </html>
 
